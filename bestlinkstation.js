@@ -46,7 +46,7 @@ function bestLink(stationsList, deviceLocation){
 }
 
 function stationDistance(station, device) {
-  return Math.hypot(device.x-station.x, device.x-station.y);
+  return Math.hypot(device.x-station.x, device.y-station.y);
 }
 
 function stationPower(station, device) {
